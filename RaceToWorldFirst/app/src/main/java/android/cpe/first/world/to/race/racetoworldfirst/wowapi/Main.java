@@ -198,10 +198,9 @@ public class Main extends Activity {
               achievementId,
               response.getAchievements().getAchievementsCompletedTimestamp().get( response.getAchievements().getAchievementsCompleted().indexOf(achievementId))));
         } catch (Exception e) {
-          //logger.error("Error in finding achievement" + e.getMessage());
+
         }
       }
-
       return achievements;
     }
 
